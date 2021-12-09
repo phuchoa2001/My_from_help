@@ -73,7 +73,7 @@ const Signup = () => {
         Messger = "hãy kiểm tra lại mẫu đăng ký";
         break;
       } else {
-        Messger = `Bạn đã đặng ký với user : ${user.username} - Password : ${user.password}`;
+        Messger = `Bạn đã đăng ký với user : ${user.username} - Password : ${user.password}`;
       }
     }
     if (!checkBox) {
